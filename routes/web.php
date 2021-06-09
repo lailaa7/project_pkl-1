@@ -20,10 +20,19 @@ Route::get('/', function () {
 Route::get('databrg', 'App\Http\Controllers\MasterController@index');
 Route::get('kategori', 'App\Http\Controllers\MasterController@kategori');
 Route::get('/kategori/addkategori', 'App\Http\Controllers\MasterController@addkategori');
+Route::get('/databarang/addbarang', 'App\Http\Controllers\MasterController@addbarang');
 
 Route::get('home', 'App\Http\Controllers\HomeController@index');
 
 Route::get('brgmasuk', 'App\Http\Controllers\TransaksiController@brgmasuk');
+Route::get('brgmasuk/addmasuk', 'App\Http\Controllers\TransaksiController@addmasuk');
 Route::get('brgkeluar', 'App\Http\Controllers\TransaksiController@brgkeluar');
 
 Route::get('supplier', 'App\Http\Controllers\SupplierController@supplier');
+Route::get('supplier/addsupplier', 'App\Http\Controllers\SupplierController@add');
+
+Route::get('peminjaman', 'App\Http\Controllers\PeminjamanController@index');
+Route::get('peminjaman/addpinjam', 'App\Http\Controllers\PeminjamanController@addpinjam');
+
+Route::get('administrator', 'App\Http\Controllers\AdministratorController@index');
+Route::get('administrator/add', 'App\Http\Controllers\AdministratorController@add');

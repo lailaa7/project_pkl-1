@@ -11,4 +11,9 @@ class SupplierController extends Controller
     {
         return view('supplier/supplier');
     }
+
+    public function add()
+    {
+        return view('supplier/addsupplier');
+    }
 }

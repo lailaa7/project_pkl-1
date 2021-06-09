@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <title>Data Barang</title>
+    <title>Data Administrator</title>
     <meta name="description" content="Doodle is a Dashboard & Admin Site Responsive Template by hencework." />
     <meta name="keywords" content="admin, admin dashboard, admin template, cms, crm, Doodle Admin, Doodleadmin, premium admin templates, responsive admin, sass, panel, software, ui, visualization, web app, application" />
     <meta name="author" content="hencework" />
@@ -47,13 +47,13 @@
                 <!-- Title -->
                 <div class="row heading-bg">
                     <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
-                        <h5 class="txt-dark">Data Barang</h5>
+                        <h5 class="txt-dark">Data Administrator</h5>
                     </div>
                     <!-- Breadcrumb -->
                     <div class="col-lg-9 col-sm-8 col-md-8 col-xs-12">
                         <ol class="breadcrumb">
-                            <li><a href="inventory">Warehouse</a></li>
-                            <li class="active"><span>Data Barang</span></li>
+                            <!-- <li><a href="inventory">Warehouse</a></li> -->
+                            <li class="active"><span>Data Administrator</span></li>
                         </ol>
                     </div>
                     <!-- /Breadcrumb -->
@@ -66,8 +66,8 @@
                                 <div class="pull-left">
                                     <!-- <h6 class="panel-title txt-dark">DataTable</h6> -->
                                     <!-- <button data-toggle="modal" data-target="#myModal" class="btn btn-success col-mr-2" >Tambah Barang</button> -->
-                                    <a href="databarang/addbarang" class="btn btn-success float-right col-mr-3"><i class="fa fa succes"></i>
-                                        Tambah Barang
+                                    <a href="administrator/add" class="btn btn-success float-right col-mr-3"><i class="fa fa succes"></i>
+                                        Tambah Data
                                     </a>
                                     <!-- <button class="btn btn-primary btn-sm btn-icon mb-3"><i class="fa fa-plus fa-sm"></i> Tambah Data</button> -->
                                 </div>
@@ -90,35 +90,36 @@
                                             <table id="myTable1" class="table table-bordered display  pb-30">
                                                 <thead>
                                                     <tr>
-                                                        <th>Kode</th>
-                                                        <th>Nama Barang</th>
-                                                        <th>Jenis</th>
-                                                        <th>Stok</th>
-                                                        <th>Gambar</th>
+                                                        <th>#</th>
+                                                        <th>Nama</th>
+                                                        <th>Username</th>
+                                                        <th>Level</th>
                                                         <th>Status</th>
                                                         <th colspan="3">Aksi</th>
                                                     </tr>
                                                 </thead>
                                                 <!-- <tfoot>
-													<tr>
-														<th>Name</th>
-														<th>Position</th>
-														<th>Office</th>
-														<th>Age</th>
-														<th>Start date</th>
-														<th>Salary</th>
-													</tr>
-												</tfoot> -->
+                                            <tr>
+                                                <th>Name</th>
+                                                <th>Position</th>
+                                                <th>Office</th>
+                                                <th>Age</th>
+                                                <th>Start date</th>
+                                                <th>Salary</th>
+                                            </tr>
+                                        </tfoot> -->
                                                 <tbody>
                                                     <tr>
-                                                        <td>Tiger Nixon</td>
-                                                        <td>System Architect</td>
-                                                        <td>Edinburgh</td>
-                                                        <td>61</td>
-                                                        <td>2011/04/25</td>
-                                                        <td>2011/04/25</td>
+                                                        <td>1</td>
+                                                        <td>Dinar</td>
+                                                        <td>dinarnr</td>
+                                                        <td>Admin</td>
                                                         <td>
-                                                            <button class="btn btn-success btn-icon-anim btn-square"><i class="fa fa-edit"></i></button>
+                                                            <!-- <button class="btn btn-success btn-icon-anim btn-square"><i class="fa fa-edit"></i></button> -->
+                                                            <button class="btn btn-success btn-icon-anim">Aktif</button>
+                                                        </td>
+                                                        <td>
+                                                            <!-- <button class="btn btn-success btn-icon-anim btn-square"><i class="fa fa-edit"></i></button> -->
                                                             <button class="btn btn-primary btn-icon-anim btn-square"><i class="fa fa-pencil"></i></button>
                                                             <button class="btn btn-danger btn-icon-anim btn-square"><i class="fa fa-trash"></i></button>
                                                             <!-- <div class="btn btn-round btn-danger btn-sm btn-icon"><i class="fa fa-trash"></i></div> -->

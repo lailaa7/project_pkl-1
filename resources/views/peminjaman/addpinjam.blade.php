@@ -47,14 +47,14 @@
                 <!-- Title -->
                 <div class="row heading-bg">
                     <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
-                        <h5 class="txt-dark">tambah kategori</h5>
+                        <h5 class="txt-dark">tambah data pinjam</h5>
                     </div>
                     <!-- Breadcrumb -->
                     <div class="col-lg-9 col-sm-8 col-md-8 col-xs-12">
                         <ol class="breadcrumb">
-                            <li><a href="index.html">master data</a></li>
-                            <li><a href="#"><span>kategori</span></a></li>
-                            <li class="active"><span>tambah kategori</span></li>
+                            <!-- <li><a href="index.html">master data</a></li> -->
+                            <li><a href="#"><span>data peminjaman</span></a></li>
+                            <li class="active"><span>tambah data pinjam</span></li>
                         </ol>
                     </div>
                     <!-- /Breadcrumb -->
@@ -66,28 +66,43 @@
                     <div class="col-sm-12">
                         <div class="panel panel-default card-view">
                             <!-- <div class="panel-heading">
-                                <div class="clearfix"></div>
-                            </div> -->
+                    <div class="clearfix"></div>
+                </div> -->
                             <div class="panel-wrapper collapse in">
                                 <div class="panel-body">
                                     <div class="form-wrap mt-3">
                                         <form>
                                             <div class="form-group">
-                                                <label class="control-label mb-10 text-left">Kode<span class="help"> Kategori</span></label>
+                                                <label class="control-label mb-10 text-left">Nama</label>
                                                 <input type="text" class="form-control" value="">
                                             </div>
                                             <div class="form-group">
-                                                <label class="control-label mb-10 text-left" for="example-email">Nama kategori <span class="help"> </span></label>
-                                                <input type="text" id="example-email" name="example-email" class="form-control" placeholder="">
+                                                <label class="control-label mb-10 text-left">Nama barang</label>
+                                                <input type="text" class="form-control" value="">
                                             </div>
                                             <div class="form-group">
-                                                <label class="control-label mb-10 text-left">Keterangan</label>
-                                                <input type="passtextword" class="form-control" value="">
+                                                <label class="control-label mb-10 text-left">Jumlah</label>
+                                                <input type="number" class="form-control" value="">
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="control-label mb-10 text-left">Tanggal Pinjam</label>
+                                                <input type="date" class="form-control" value="">
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="control-label mb-10 text-left">Tanggal Kembali</label>
+                                                <input type="date" class="form-control" value="">
+                                            </div>
+                                            <div class="form-group mt-30 mb-30">
+                                                <label class="control-label mb-10 text-left">Status</label>
+                                                <select class="form-control">
+                                                    <option>Pinjam</option>
+                                                    <option>Dikembalikan</option>
+                                                </select>
                                             </div>
 
                                         </form>
                                         <div class="form-group-justified>
-                                            <label class=" col-md-2 control-label"></label>
+                                <label class=" col-md-2 control-label"></label>
                                             <div style=" margin-right:10px; margin-top:30px ">
                                                 <button class="btn btn-success mr-5" name="submit" type="submit">
                                                     Simpan

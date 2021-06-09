@@ -48,19 +48,19 @@
             </a>
         </li>
         <li>
-            <a href="widgets.html">
+            <a href="peminjaman">
                 <div class="pull-left"><i class="zmdi zmdi-flag mr-20"></i><span class="right-nav-text">Peminjaman</span></div>
                 <div class="clearfix"></div>
             </a>
         </li>
         <li>
-            <a href="widgets.html">
+            <a href="po">
                 <div class="pull-left"><i class="zmdi zmdi-flag mr-20"></i><span class="right-nav-text">Purchase Order</span></div>
                 <div class="clearfix"></div>
             </a>
         </li>
         <li>
-            <a href="widgets.html">
+            <a href="administrator/administrator">
                 <div class="pull-left"><i class="zmdi zmdi-flag mr-20"></i><span class="right-nav-text">Administrator</span></div>
                 <div class="clearfix"></div>
             </a>

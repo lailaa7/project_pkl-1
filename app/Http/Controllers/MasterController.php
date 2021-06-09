@@ -12,6 +12,11 @@ class MasterController extends Controller
         return view('master/databrg');
     }
 
+    public function addbarang()
+    {
+        return view('master/addbarang');
+    }
+
     public function kategori()
     {
         return view('master/kategori');

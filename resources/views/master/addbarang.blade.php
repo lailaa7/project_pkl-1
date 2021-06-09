@@ -47,14 +47,14 @@
                 <!-- Title -->
                 <div class="row heading-bg">
                     <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
-                        <h5 class="txt-dark">tambah kategori</h5>
+                        <h5 class="txt-dark">tambah barang</h5>
                     </div>
                     <!-- Breadcrumb -->
                     <div class="col-lg-9 col-sm-8 col-md-8 col-xs-12">
                         <ol class="breadcrumb">
                             <li><a href="index.html">master data</a></li>
-                            <li><a href="#"><span>kategori</span></a></li>
-                            <li class="active"><span>tambah kategori</span></li>
+                            <li><a href="#"><span>data barang</span></a></li>
+                            <li class="active"><span>tambah barang</span></li>
                         </ol>
                     </div>
                     <!-- /Breadcrumb -->
@@ -77,12 +77,31 @@
                                                 <input type="text" class="form-control" value="">
                                             </div>
                                             <div class="form-group">
-                                                <label class="control-label mb-10 text-left" for="example-email">Nama kategori <span class="help"> </span></label>
+                                                <label class="control-label mb-10 text-left" for="example-email">Nama barang <span class="help"> </span></label>
                                                 <input type="text" id="example-email" name="example-email" class="form-control" placeholder="">
                                             </div>
                                             <div class="form-group">
-                                                <label class="control-label mb-10 text-left">Keterangan</label>
-                                                <input type="passtextword" class="form-control" value="">
+                                                <label class="control-label mb-10 text-left">Jenis</label>
+                                                <input type="text" class="form-control" value="">
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="control-label mb-10 text-left">Stok</label>
+                                                <input type="text" class="form-control" value="">
+                                            </div>
+                                            <div class="form-group mb-30">
+                                                <label class="control-label mb-10 text-left">File upload</label>
+                                                <div class="fileinput fileinput-new input-group" data-provides="fileinput">
+                                                    <div class="form-control" data-trigger="fileinput"> <i class="glyphicon glyphicon-file fileinput-exists"></i> <span class="fileinput-filename"></span></div>
+                                                    <span class="input-group-addon fileupload btn btn-info btn-anim btn-file"><i class="fa fa-upload"></i>
+                                                        <span class="fileinput-new btn-text">Select file</span>
+                                                        <!-- <span class="fileinput-exists btn-text">Change</span>
+                                                        <input type="file" name="..."></span>  -->
+                                                        <!-- <a href="#" class="input-group-addon btn btn-danger btn-anim fileinput-exists" data-dismiss="fileinput"><i class="fa fa-trash"></i><span class="btn-text"> Remove</span></a> -->
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="control-label mb-10 text-left">Status</label>
+                                                <input type="text" class="form-control" value="">
                                             </div>
 
                                         </form>

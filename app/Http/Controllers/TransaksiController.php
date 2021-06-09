@@ -12,6 +12,11 @@ class TransaksiController extends Controller
         return view('transaksi/brgmasuk');
     }
 
+    public function addmasuk()
+    {
+        return view('transaksi/addmasuk');
+    }
+
     public function brgkeluar()
     {
         return view('transaksi/brgkeluar');
